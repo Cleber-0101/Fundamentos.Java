@@ -18,8 +18,15 @@ public class MediaEscolar {
 		 }else {
 			 System.out.println("Reprovado");
 		 }
-		   
 		
+		if(media < 7 &&  media >= 4.5) {
+			System.out.println("Aluno de recuperação");
+		}
+		
+		if(media <4.5 && media >= 0) {
+			System.out.println("REPROVADO");
+		}
+					   		
 		 media1.close();  
 	}
 	 
